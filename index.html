@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="北京豪威智能家用电器有限公司 — 智慧家居，由芯而生"
+    />
+    <title>豪威智能 · HAOWEI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="HAOWEI">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-cn">豪威</span>
+          <span class="brand-en">HAOWEI</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#intelligence" data-i18n="nav.intelligence">智能</a>
+        <a href="#products" data-i18n="nav.products">产品</a>
+        <a href="#ecosystem" data-i18n="nav.ecosystem">生态</a>
+        <a href="#contact" data-i18n="nav.contact">联系</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn is-active" data-lang="zh">中文</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a class="btn btn-sm" href="#contact" data-i18n="nav.cta">合作咨询</a>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <a href="#intelligence" data-i18n="nav.intelligence">智能</a>
+      <a href="#products" data-i18n="nav.products">产品</a>
+      <a href="#ecosystem" data-i18n="nav.ecosystem">生态</a>
+      <a href="#contact" data-i18n="nav.contact">联系</a>
+      <div class="lang-switch mobile-lang" role="group" aria-label="Language">
+        <button type="button" class="lang-btn is-active" data-lang="zh">中文</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/hero.jpg"
+            alt=""
+            class="hero-img"
+          />
+          <div class="hero-veil"></div>
+          <div class="hero-grid"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="brand-hero" data-i18n="hero.brand">豪威智能</p>
+          <h1 data-i18n="hero.title">让家电，真正懂你</h1>
+          <p class="hero-lead" data-i18n="hero.lead">
+            以感知、计算与互联重塑家用电器，把精密智能融入每一次日常。
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#products" data-i18n="hero.ctaPrimary">探索产品</a>
+            <a class="btn btn-ghost" href="#intelligence" data-i18n="hero.ctaSecondary">了解智能</a>
+          </div>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span></span>
+        </div>
+      </section>
+
+      <section class="section intelligence" id="intelligence">
+        <div class="section-head">
+          <h2 data-i18n="intel.title">强大智能，藏于细节</h2>
+          <p data-i18n="intel.lead">
+            从环境感知到自适应控制，豪威以系统级智能驱动更安静、更高效、更可靠的家居体验。
+          </p>
+        </div>
+
+        <div class="intel-stage">
+          <article class="intel-item reveal">
+            <span class="intel-index">01</span>
+            <h3 data-i18n="intel.item1.title">多维感知</h3>
+            <p data-i18n="intel.item1.desc">
+              温湿度、空气质量、使用习惯同步采集，设备先于你察觉变化。
+            </p>
+          </article>
+          <article class="intel-item reveal" style="--d: 0.1s">
+            <span class="intel-index">02</span>
+            <h3 data-i18n="intel.item2.title">边缘计算</h3>
+            <p data-i18n="intel.item2.desc">
+              本地决策毫秒级响应，减少云端依赖，隐私与速度兼得。
+            </p>
+          </article>
+          <article class="intel-item reveal" style="--d: 0.2s">
+            <span class="intel-index">03</span>
+            <h3 data-i18n="intel.item3.title">全屋互联</h3>
+            <p data-i18n="intel.item3.desc">
+              设备协同形成场景链路，一键切换起床、离家、归家与休憩模式。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section products" id="products">
+        <div class="section-head">
+          <h2 data-i18n="products.title">为现代生活而生</h2>
+          <p data-i18n="products.lead">
+            覆盖空气、水净、厨电与环境管理，以统一智能语言连接每一台设备。
+          </p>
+        </div>
+
+        <div class="product-rail">
+          <article class="product reveal">
+            <div class="product-visual">
+              <img
+                src="assets/air.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-copy">
+              <h3 data-i18n="products.p1.title">智能空气系统</h3>
+              <p data-i18n="products.p1.desc">
+                实时监测并自动调节净化与新风，让室内空气始终处于舒适区间。
+              </p>
+            </div>
+          </article>
+
+          <article class="product reveal" style="--d: 0.08s">
+            <div class="product-visual">
+              <img
+                src="assets/kitchen.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-copy">
+              <h3 data-i18n="products.p2.title">智慧厨电矩阵</h3>
+              <p data-i18n="products.p2.desc">
+                精准控温与食材识别协同，把复杂烹饪简化为可复现的智能流程。
+              </p>
+            </div>
+          </article>
+
+          <article class="product reveal" style="--d: 0.16s">
+            <div class="product-visual">
+              <img
+                src="assets/home.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-copy">
+              <h3 data-i18n="products.p3.title">全屋环境管家</h3>
+              <p data-i18n="products.p3.desc">
+                照明、温控与安防统一调度，形成可学习、可进化的家居操作系统。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ecosystem" id="ecosystem">
+        <div class="eco-layout">
+          <div class="eco-copy">
+            <h2 data-i18n="eco.title">一套语言，驱动整座家</h2>
+            <p data-i18n="eco.lead">
+              Haowei OS 将设备、场景与数据贯通，开放接口支持持续扩展，让智能随生活一同升级。
+            </p>
+          </div>
+          <div class="eco-visual reveal" aria-hidden="true">
+            <div class="orbit">
+              <span class="node n1"></span>
+              <span class="node n2"></span>
+              <span class="node n3"></span>
+              <span class="node n4"></span>
+              <span class="core"></span>
+            </div>
+            <p class="eco-caption" data-i18n="eco.caption">感知 · 决策 · 执行 · 学习</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-head">
+          <h2 data-i18n="contact.title">与豪威同行</h2>
+          <p data-i18n="contact.lead">
+            欢迎洽谈产品合作、渠道伙伴与技术方案对接。
+          </p>
+        </div>
+
+        <div class="contact-panel">
+          <a class="contact-mail" href="mailto:posinwess@gmail.com">posinwess@gmail.com</a>
+          <dl class="company-meta">
+            <div>
+              <dt data-i18n="contact.company">企业名称</dt>
+              <dd data-i18n="contact.companyValue">北京豪威智能家用电器有限公司</dd>
+            </div>
+            <div>
+              <dt data-i18n="contact.code">统一社会信用代码</dt>
+              <dd>91110117MADH18EQ51</dd>
+            </div>
+            <div>
+              <dt data-i18n="contact.address">企业地址</dt>
+              <dd data-i18n="contact.addressValue">
+                北京市平谷区中关村科技园区平谷园峪口新能源产业基地峪阳路38号-24252（集群注册）
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span class="brand-cn">豪威</span>
+        <span class="brand-en">HAOWEI</span>
+      </div>
+      <p data-i18n="footer.copy">© 2026 北京豪威智能家用电器有限公司</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
